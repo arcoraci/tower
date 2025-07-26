@@ -2,7 +2,7 @@
 - name: deploy vsftpd
   hosts: ansible1
   become: true
-    tasks: 
+  tasks: 
   - name: install vsftpd
     yum: name=vsftpd
   - name: enable vsftpd
